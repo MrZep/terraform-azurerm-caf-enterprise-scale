@@ -10,6 +10,7 @@ You can also review a working existing example located in examples/400-multi-wit
 In this page, we will create a policy assignment template to override an existing policy assignment currently using a SystemIdentity. We will then assign an existing user managed identity to that policy assignment.
 
 >**IMPORTANT**: To allow the declaration of custom or expanded templates, you must create a custom library folder within the root module and include the path to this folder using the `library_path` variable within the module configuration. In our example, the directory is `lib`.
+>**IMPORTANT**: To use this feature, your enterprise-scale module must be version 5.2 or newer.
 
 ## Create Policy Assignment template file
 
